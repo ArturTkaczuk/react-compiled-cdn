@@ -7,7 +7,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:prod": "npx babel --watch src --out-dir dist --presets react-app/prod"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,6 @@
     "url": "https://github.com/ArturTkaczuk/react-compiled-cdn/issues"
   },
   "homepage": "https://github.com/ArturTkaczuk/react-compiled-cdn#readme",
-  "description": ""
+  "description": "Make .development => .production.min in index.html",
+  "devDependencies": {}
 }
