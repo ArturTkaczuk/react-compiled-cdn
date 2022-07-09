@@ -11,7 +11,8 @@ Make .development => .production.min in index.html
 6. Attach script to index.html from /dist folder `<script src="./dist/index.js"></script>`
 7. Run `npx babel --watch src --out-dir dist --presets react-app/prod` for watch mode
 
->You could also add these two scripts to npm scripts (helps a lot):
+## Npm scripts:
+
 ```
   "scripts": {
     "build:prod": "npx babel src --out-dir dist --presets react-app/prod",
