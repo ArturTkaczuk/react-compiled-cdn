@@ -1,5 +1,6 @@
 # react-compiled-cdn
-Make .development => .production.min in index.html
+
+React production environment using CDN
 
 ## Steps:
 
